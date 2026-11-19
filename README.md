@@ -1,6 +1,7 @@
 # Checkoff-03
 
-## XOR Encryption Summary
+## XOR Encryption
+**Slideshow:** https://docs.google.com/presentation/d/18QNCISoQkpUqQKbBHpVjPsYPR60uskrvX3VPsbHW8vE/edit?slide=id.h2689d85d28728e51_4_392#slide=id.h2689d85d28728e51_4_392
 
 ### Topic Introduction
 Bitwise **XOR ($\oplus$)** performs binary addition modulo 2. Because it acts as its own inverse (applying the exact same key twice restores the original bits) it serves as a core basic technique in systems programming and cryptography.
