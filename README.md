@@ -3,7 +3,7 @@
 ## XOR Encryption Summary
 
 ### Topic Introduction
-Bitwise **XOR ($\oplus$)** performs binary addition modulo 2. Because it acts as its own inverse—applying the exact same key twice restores the original bits—it serves as a core primitive in both systems programming and cryptography.
+Bitwise **XOR ($\oplus$)** performs binary addition modulo 2. Because it acts as its own inverse (applying the exact same key twice restores the original bits) it serves as a core basic technique in systems programming and cryptography.
 
 * **Symmetry & Ciphers:** Compared single-byte XOR, repeating-key XOR (`key[i % key_len]`), and the mathematically unbreakable One-Time Pad (OTP).
 * **Cryptanalysis:** Analyzed how key reuse cancels out the key ($C_1 \oplus C_2 = P_1 \oplus P_2$), enabling crib dragging, frequency analysis, and bit-flipping attacks.
